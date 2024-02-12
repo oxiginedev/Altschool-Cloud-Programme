@@ -22,7 +22,7 @@ cp misc/fileB fileD
 tar -cf misc.tar misc
 
 # Compress the tar archive
-tar -czvf misc.tar.gz misc.tar
+gzip misc.tar
 
 # Create user and force password change on login
 sudo useradd --expiredate 0 student
